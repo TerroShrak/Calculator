@@ -1,0 +1,393 @@
+object Form1: TForm1
+  Left = 447
+  Height = 213
+  Top = 290
+  Width = 232
+  Caption = 'Form1'
+  ClientHeight = 213
+  ClientWidth = 232
+  LCLVersion = '1.8.2.0'
+  object Button1: TButton
+    Left = 9
+    Height = 25
+    Top = 48
+    Width = 34
+    Caption = '<'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 50
+    Height = 25
+    Top = 48
+    Width = 34
+    Caption = 'CE'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 1
+  end
+  object Button3: TButton
+    Left = 9
+    Height = 25
+    Top = 80
+    Width = 34
+    Caption = '7'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Button4: TButton
+    Left = 50
+    Height = 25
+    Top = 81
+    Width = 34
+    Caption = '8'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 3
+  end
+  object Button5: TButton
+    Left = 90
+    Height = 25
+    Top = 48
+    Width = 34
+    Caption = 'C'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 4
+  end
+  object Button6: TButton
+    Left = 90
+    Height = 25
+    Top = 81
+    Width = 34
+    Caption = '9'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Button7: TButton
+    Left = 9
+    Height = 25
+    Top = 113
+    Width = 34
+    Caption = '4'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 50
+    Height = 25
+    Top = 113
+    Width = 34
+    Caption = '5'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 7
+  end
+  object Button9: TButton
+    Left = 90
+    Height = 25
+    Top = 113
+    Width = 34
+    Caption = '6'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 8
+  end
+  object Button10: TButton
+    Left = 9
+    Height = 25
+    Top = 145
+    Width = 34
+    Caption = '1'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 9
+  end
+  object Button11: TButton
+    Left = 9
+    Height = 25
+    Top = 177
+    Width = 76
+    Caption = '0'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 10
+  end
+  object Button12: TButton
+    Left = 50
+    Height = 25
+    Top = 145
+    Width = 34
+    Caption = '2'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Button13: TButton
+    Left = 90
+    Height = 25
+    Top = 145
+    Width = 34
+    Caption = '3'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 12
+  end
+  object Button14: TButton
+    Left = 138
+    Height = 25
+    Top = 48
+    Width = 34
+    Caption = 'x^2'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button15: TButton
+    Left = 138
+    Height = 25
+    Top = 80
+    Width = 34
+    Caption = '/'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Button16: TButton
+    Left = 138
+    Height = 25
+    Top = 112
+    Width = 34
+    Caption = '*'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 15
+  end
+  object Button17: TButton
+    Left = 138
+    Height = 25
+    Top = 145
+    Width = 34
+    Caption = '-'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 16
+  end
+  object Button18: TButton
+    Left = 186
+    Height = 25
+    Top = 48
+    Width = 34
+    Caption = '√'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 17
+  end
+  object Button19: TButton
+    Left = 186
+    Height = 25
+    Top = 81
+    Width = 34
+    Caption = '%'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 18
+  end
+  object Button20: TButton
+    Left = 186
+    Height = 25
+    Top = 113
+    Width = 34
+    Caption = '1/x'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 19
+  end
+  object Button21: TButton
+    Left = 186
+    Height = 56
+    Top = 144
+    Width = 34
+    Caption = '='
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 20
+  end
+  object Button22: TButton
+    Left = 90
+    Height = 25
+    Top = 176
+    Width = 34
+    Caption = ','
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 21
+  end
+  object Button23: TButton
+    Left = 138
+    Height = 25
+    Top = 177
+    Width = 34
+    Caption = '+'
+    Color = clHighlightText
+    Font.CharSet = ANSI_CHARSET
+    Font.Color = clOlive
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 22
+  end
+  object Edit1: TEdit
+    Left = 9
+    Height = 26
+    Top = 8
+    Width = 211
+    Color = clWhite
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = '@Arial Unicode MS'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentBidiMode = False
+    ParentFont = False
+    TabOrder = 23
+  end
+end
