@@ -1,0 +1,78 @@
+Установка имени и электронной почты
+git config --global user.name "Your Name"
+git config --global user.email "your_email@whatever.com"
+Создайте репозиторий
+git init
+Добавьте файл в репозиторий
+git add namefile.расширение 
+Проверьте состояние репозитория
+git status
+Проверьте состояние
+$ git status
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#   modified:   filename.расширение
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Добавьте изменения
+git add filename.расширение
+git status
+
+РЕЗУЛЬТАТ:
+$ git add hello.html
+$ git status
+# On branch master
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#   modified:   filename.расширение
+#
+Индексация и коммит
+git commit -m "Ваш комментарий"
+История
+
+ВЫПОЛНИТЕ:
+git log
+РЕЗУЛЬТАТ:
+$ git log
+commit fa3c1411aa09441695a9e645d4371e8d749da1dc
+Author: Alexander Shvets <alex@githowto.com>
+Date:   Wed Mar 9 10:27:54 2011 -0500
+
+    Added HTML header
+
+commit 8c3228730ed03116815a5cc682e8105e7d981928
+Author: name<email>
+Date:   Дата
+
+    Added standard HTML page tags
+
+commit 43628f779cb333dd30d78186499f93638107f70b
+Author: name<email>
+Date:   Дата
+
+    Added h1 tag
+
+commit 911e8c91caeab8d30ad16d56746cbd6eef72dc4c
+Author: name<email>
+
+Date:   дата
+
+    First Commit
+Получение старых версий
+ВЫПОЛНИТЕ:
+git hist
+РЕЗУЛЬТАТ:
+$ git hist
+* fa3c141 2011-03-09 | Added HTML header (HEAD, master) [name]
+* 8c32287 2011-03-09 | Added standard HTML page tags [name]
+* 43628f7 2011-03-09 | Added h1 tag [name]
+* 911e8c9 2011-03-09 | First Commit [name]
+
+ВЫПОЛНИТЕ:
+git checkout <hash>
+cat hello.html
