@@ -1,0 +1,40 @@
+git config --global user.name "TerroShrak"
+git config --global user.email cudimo@mail-list.top
+	
+$ mkdir Desktop/git_exercise/
+$ cd Desktop/git_exercise/
+$ git init
+
+$ git status 
+	
+$ git status
+On branch master
+Initial commit
+Untracked files:
+(use "git add ..." to include in what will be committed)
+מעקוע.txt
+$ git add מעקוע.txt
+$ git status
+On branch master
+Initial commit
+Changes to be committed:
+(use "git rm --cached ..." to unstage)
+new file: מעקוע.txt
+
+git commit -m "מעקוע.txt"
+
+
+git remote add origin https://github.com/TerroShrak/Calculator.git
+
+	
+$ git push origin master
+$ git pull origin master
+
+ git branch amazing_new_feature
+
+	
+$ git branch
+amazing_new_feature
+* master
+git log
+git checkout 09bd8cc1 מעקוע.txt
